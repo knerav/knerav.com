@@ -1,6 +1,6 @@
 domain: knerav.com
 url: https://knerav.com # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /knerav.github.io/
+baseurl: ""
 
 title: Knerav Kodolikar # the name of your site, e.g. ACME Corp.
 author:
