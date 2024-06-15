@@ -6,8 +6,9 @@ gem "minima", "~> 2.5"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "github-pages", "~> 231", group: :jekyll_plugins
+  gem "github-pages", "~> 231"
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-postcss"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

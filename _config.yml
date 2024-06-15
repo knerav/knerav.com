@@ -1,8 +1,15 @@
 domain: knerav.com
 url: https://knerav.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /knerav.github.io/
+
 title: Knerav Kodolikar # the name of your site, e.g. ACME Corp.
 author:
   first_name: Knerav
   last_name: Kodolikar
   email: knerav@gmail.com
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
