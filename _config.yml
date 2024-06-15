@@ -1,8 +1,10 @@
 domain: knerav.com
 url: https://knerav.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: ""
+repository: knerav.com
 
 title: Knerav Kodolikar # the name of your site, e.g. ACME Corp.
+description: "This is Knerav's website!"
 author:
   first_name: Knerav
   last_name: Kodolikar
