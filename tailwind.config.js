@@ -8,8 +8,9 @@ module.exports = {
     "./*.html",
   ],
   theme: {
-    theme: {
-      extend: {},
+    extend: {},
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],
