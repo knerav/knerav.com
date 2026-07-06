@@ -1,19 +1,21 @@
 ---
 layout: default
-title: "Hello 👋"
-heading: "Hello! I'm Knerav 👋"
-subtitle: "I'm a product-minded developer who loves shaping ideas through to fully deployed production applications."
-paragraph_one: "Over the last three years, I've helped ideate and ship <a href='/applications.html' class='border-b border-orange-900 font-medium'>multiple applications</a> in the urban mobility and civic tech sectors. Working across frontend, backend, databases, and infrastructure."
-paragraph_two: "Before that, I worked as a technical research analyst. Leveraging my background in Economics to make sense of the built environment around me, and trying to make it better."
-footnote: "While I've adopted an LLM-aided approach for work. This website is built on good old handwritten, artisanal code, using <a href='https://jekyllrb.com/' target='_blank' class='border-b border-orange-900'>Jekyll</a>."
+title: Hello 👋
+heading: Hey there! I'm Knerav 👋
+subtitle: I <a href="/applications.html" class="border-b border-orange-900 font-medium">build technology</a> for cities, informed by years spent studying how they work and who they work for.
+paragraph_one: I began my career in urban governance research, conducting stakeholder interviews and translating policy findings into early product prototypes for mobility and civic initiatives. That research-to-execution instinct carried into LVBL, where I built the internal tools that directly shaped four store openings, and into Altmo, where I've been involved since its earliest days, leading product strategy, engineering, and business development as the platform grew to serve 10,000+ users.
+paragraph_two: I've been a competitive cyclist for most of my life, and navigating cities on two wheels taught me to notice them as systems, ones I've since made a habit of untangling one thread at a time.
+footnote: While I've adopted an LLM-aided approach for work. This website is built on good old handwritten, artisanal code, using <a href="https://jekyllrb.com/" target="_blank" class="border-b border-orange-900">Jekyll</a>.
 ---
 
 <div class="h-screen flex items-center justify-center p-4 md:p-8">
-  <div class="flex flex-col items-start space-y-6 max-w-xl">
-    <p class="text-orange-900 text-sm md:text-base font-normal">{{ page.heading }}</p>
-    <p class="text-orange-900 text-sm md:text-base font-normal">{{ page.subtitle }}</p>
-    <p class="text-orange-900 text-sm md:text-base font-normal">{{ page.paragraph_one | raw }}</p>
-    <p class="text-orange-900 text-sm md:text-base font-normal">{{ page.paragraph_two }}</p>
+  <div class="flex flex-col items-start space-y-10 max-w-xl">
+    <div class="flex flex-col items-start space-y-6">
+      <p class="text-orange-900 text-base font-normal">{{ page.heading }}</p>
+      <p class="text-orange-900 text-base font-normal">{{ page.subtitle }}</p>
+      <p class="text-orange-900 text-base font-normal">{{ page.paragraph_one | raw }}</p>
+      <p class="text-orange-900 text-base font-normal">{{ page.paragraph_two }}</p>
+    </div>
     <div class="inline-flex items-center space-x-4">
       <a href="mailto:knerav@gmail.com?subject=I'm%20here%20from%20your%20website!" class="text-xs md:text-sm bg-orange-700 py-2.5 md:py-3.5 px-4 md:px-5 rounded-xl text-white font-medium hover:bg-orange-500 transition-colors duration-300 ease-in-out">
         Email me
